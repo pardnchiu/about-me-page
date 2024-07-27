@@ -8,8 +8,8 @@
 <!DOCTYPE html>
 <html lang="zh-Hans-TW">
 
-	<head>
-		<meta charset="UTF-8">
+    <head>
+        <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <meta name="mobile-web-app-capable" content="no">
@@ -17,7 +17,7 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
         <meta name="theme-color" content="#ffffff">
         <meta name="robots" content="index follow">
-        <!--  --> 
+        <!--  -->
         <title>About Me Page | 邱敬幃 Pardn Chiu | GitHub.io</title>
         <meta name="title" content="About Me Page | 邱敬幃 Pardn Chiu | GitHub.io">
         <meta name="description" content="關於我頁面實作範例 | 帕登數位科技有限公司">
@@ -49,79 +49,79 @@
             gtag('js', new Date());
             gtag('config', 'G-L5VYEZPVXX');
         </script>
-		<!--  -->
-		<link rel="stylesheet" href="css/index.css">
-		<!--  -->
-		<script src="https://pardnchiu.github.io/js/repo.js" copyright="Pardn Ltd"></script>
-        <script src="https://cdn.jsdelivr.net/gh/pardnchiu/PDExtension-js@latest/js/PDExtension.min.js" copyright="Pardn Ltd" defer></script>
-		<script src="js/index.min.js" defer></script>
-		<!--  -->
-		<style>
-			:root {
-				--width-max: 1280px;
+        <!--  -->
+        <link rel="stylesheet" href="css/index.css">
+        <!--  -->
+        <script src="https://pardnchiu.github.io/js/repo.js" copyright="Pardn Ltd"></script>
+        <script src="https://cdn.jsdelivr.net/gh/pardnchiu/PDRenderKit@1.0.0/dist/PDRenderKit.js" copyright="Pardn Ltd"></script>
+        <script src="js/index.min.js" defer></script>
+        <!--  -->
+        <style>
+            :root {
+                --width-max: 1280px;
 
-				--col-brand-1: #F5F5F5;
-				--col-brand-2: #C7C7C7;
-				--col-brand-3: #999999;
-				--col-brand-4: #6B6B6B;
-				--col-brand-5: #3D3D3D;
-				--col-brand-6: #303030;
-				--col-brand-7: #242424;
-				--col-brand-8: #171717;
-				--col-brand-9: #0A0A0A;
-			}
-		</style>
-	</head>
+                --col-brand-1: #F5F5F5;
+                --col-brand-2: #C7C7C7;
+                --col-brand-3: #999999;
+                --col-brand-4: #6B6B6B;
+                --col-brand-5: #3D3D3D;
+                --col-brand-6: #303030;
+                --col-brand-7: #242424;
+                --col-brand-8: #171717;
+                --col-brand-9: #0A0A0A;
+            }
+        </style>
+    </head>
 
 
-	<body>
+    <body>
 
-		<script>
+        <script>
             const sn = 30
             const ary = repo;
             ary.forEach(e => e.tag = e.tag === "iOS" ? 2 : 1)
-			const PDConfig = {
-				nav: {
-					title: "Pardn Chiu",
-					list: [
-						"Home",
-						"About",
-						"Skills",
-						"Services",
-						"Experiences",
-						"Portfolios",
-						"Contact"
-					],
-					icon: {
-						list: "fa-solid fa-bars"
-					}
-				},
-				header: {
-					left: [
-						{
-							icon: "fa-brands fa-github",
-							href: "https://github.com/pardnchiu"
-						},
-						{
-							icon: "fa-brands fa-linkedin",
-							href: "https://linkedin.com/in/pardnchiu"
-						},
-					],
-					title: "Pardn Chiu",
-					subtitle: "iOS & Full-stack Developer",
-					description: "I'm creative designer based in New York, and I'm very passionate and dedicated to my work..",
-					button: {
-						txt: "Contact",
-						href: "mailto:mail@pardn.ltd"
-					},
-					head: "https://pardn.io/image/head.jpg"
-				},
-				icon: {
-					scrollTop: "fa-solid fa-arrow-up"
-				}
-			}
-		</script>
+            const PDConfig = {
+                nav: {
+                    title: "Pardn Chiu",
+                    list: [
+                        "Home",
+                        "About",
+                        "Skills",
+                        "Services",
+                        "Experiences",
+                        "Portfolios",
+                        "Contact"
+                    ],
+                    icon: {
+                        list: "fa-solid fa-bars"
+                    }
+                },
+                header: {
+                    left: [
+                        {
+                            icon: "fa-brands fa-github",
+                            href: "https://github.com/pardnchiu"
+                        },
+                        {
+                            icon: "fa-brands fa-linkedin",
+                            href: "https://linkedin.com/in/pardnchiu"
+                        },
+                    ],
+                    title: "Pardn Chiu",
+                    subtitle: "iOS & Full-stack Developer",
+                    description: "I'm creative designer based in New York, and I'm very passionate and dedicated to my work..",
+                    button: {
+                        txt: "Contact",
+                        href: "mailto:mail@pardn.ltd"
+                    },
+                    head: "https://pardn.io/image/head.jpg"
+                },
+                icon: {
+                    scrollTop: "fa-solid fa-arrow-up"
+                }
+            }
+        </script>
 
-	</body>
+    </body>
 
 </html>
